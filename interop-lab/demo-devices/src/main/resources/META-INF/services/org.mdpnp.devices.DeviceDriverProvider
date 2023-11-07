@@ -1,0 +1,6 @@
+org.mdpnp.apps.testapp.DeviceFactory$DraegerApolloProvider
+org.mdpnp.apps.testapp.DeviceFactory$DraegerEvitaXLProvider
+org.mdpnp.apps.testapp.DeviceFactory$DraegerV500Provider
+org.mdpnp.apps.testapp.DeviceFactory$DraegerSavinaProvider
+org.mdpnp.apps.testapp.DeviceFactory$DraegerV500_38400Provider
+org.mdpnp.apps.testapp.DeviceFactory$DraegerEvita4Provider
