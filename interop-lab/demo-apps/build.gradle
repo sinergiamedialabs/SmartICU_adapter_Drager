@@ -53,11 +53,9 @@ jfxDeploy {
 */
 
 distZip {
-  dependsOn jfxNative
 }
 
 distTar {
-  dependsOn jfxNative
 }
 
 applicationName = 'adapter'
@@ -240,9 +238,6 @@ jar {
         "Build-Number": project.version)
     }
     //Ensure that jfxNative gets run immediately after jar, and so before distZip and distTar
-    doLast {
-      jfxNative
-    }
 }
 
 test {
